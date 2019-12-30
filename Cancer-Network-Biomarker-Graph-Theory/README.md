@@ -4,4 +4,4 @@ Two graph theoretic concepts—clique and bipartite graphs—are explored to ide
 * Language/Tools: Python, Cytoscape
 * Published Article: https://www.mdpi.com/2306-5729/4/2/81
 
-Tanvir, Raihanul Bari, et al. "Graph Theoretic and Pearson Correlation-Based Discovery of Network Biomarkers for Cancer." Data 4.2 (2019): 81.
+Tanvir, Raihanul Bari, Tasmia Aqila, Mona Maharjan, Abdullah Al Mamun, and Ananda Mohan Mondal. "Graph Theoretic and Pearson Correlation-Based Discovery of Network Biomarkers for Cancer." Data 4, no. 2 (2019): 81.
