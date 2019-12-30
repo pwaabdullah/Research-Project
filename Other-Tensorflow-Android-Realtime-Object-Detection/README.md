@@ -2,6 +2,7 @@
 * Video: https://youtu.be/0oBequpSGXM 
 * Language: Python, Java
 
+## Steps
 * Step 1: Install Android Studio https://developer.android.com/studio/...
 * Step 2: Install python if not installed (Anaconda: https://conda.io/docs/user-guide/inst...)
 * Step 3: Install Tensorflow if not in your python package
