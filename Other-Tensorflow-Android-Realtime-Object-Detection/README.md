@@ -1,4 +1,19 @@
-# Unknown Knowledge Mining: An Incremental Fuzzy Approach
-Machine learning methods are an integral part of artificial intelligence, concerned with the design and development of algorithms that allow computers to evolve behaviors based on experimental data. Machine learning deals with discovering knowledge from databases by analyzing the data to build a classifier and classify new patterns is an efficient way. This paper is based on the rule induction approach which overcomes the demerits of the decision tree approach. The paper makes use of the fuzzy incremental production rule (FIPR) which is a rule induction system that generates imprecise and uncertain IF-THEN rules from data records. They are well suited for adaptive learning and knowledge discovery. An incremental maintenance of the knowledge base with a minimal overhead can be realized using FIPR. This project deals with classifying a new object to any one of the existing classes using FIPR and update the database with the new item. Further when another object is to be classified it does the knowledge discovery from the updated database
+# Real-time Object Detection using Tensorflow Android
+* Video: https://youtu.be/0oBequpSGXM 
 
-* Language: Java
+Step 1: Install Android Studio https://developer.android.com/studio/...
+Step 2: Install python if not installed (Anaconda: https://conda.io/docs/user-guide/inst...)
+Step 3: Install Tensorflow if not in your python package
+ git clone https://github.com/tensorflow/tensorflow
+Step 4: Open Android Studio
+  select Open an existing Android Studio project
+Select the tensorflow/examples/android directory from wherever you cloned the TensorFlow Github repo. Click OK.
+  If it asks you to do a Gradle Sync, click OK.
+  Install various platforms and tools If it asks.
+Step 5: Open the build.gradle file 
+  (you can go to 1:Project in the side panel and find it under the Gradle Scripts zippy under Android).
+  Look for the nativeBuildSystem variable and set it to none if it isn't already:
+  // set to 'bazel', 'cmake', 'makefile', 'none'
+  def nativeBuildSystem = 'none'
+Step 6: Click the Run button (the green arrow) or use Run - Run 'android' from the top menu.
+  If it asks you to use Instant Run, click Proceed Without Instant Run.
